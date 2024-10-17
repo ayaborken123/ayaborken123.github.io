@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio d'Aya Borken">
+    <meta name="author" content="Aya Borken">
+    <title>Mon Portfolio - Aya Borken</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">À propos</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Salut, Je suis <span>Aya Borken</span></h1>
+            <h3>Étudiante en 2ème année Développement de Systèmes d'Information</h3>
+            <p>Passionnée par la création de solutions numériques qui améliorent la vie des gens. Mes projets montrent ma capacité à concevoir des interfaces intuitives et des fonctionnalités utiles.</p>
+            <div class="btn-box">
+                <a href="#contact">Discutons</a>
+            </div>
+            <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+        <img src="aya.jpg.jpg" alt="Aya Borken" class="image-droite">
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="section">
+        <h2>À propos de moi</h2>
+        <p>Je suis une étudiante en Développement de Systèmes d'Information, avec une passion pour les technologies modernes et l'innovation.</p>
+    </section>
+
+    <!-- Section Compétences -->
+    <section class="section">
+        <h2>Compétences Techniques</h2>
+        <div class="skills">
+            <div>
+                <h3>Langages de programmation</h3>
+                <ul>
+                    <li>HTML, CSS</li>
+                    <li>JavaScript, Python, Java</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Langues -->
+    <section class="section languages">
+        <h2>Langues</h2>
+        <div>
+            <h3>Arabe</h3>
+            <p>Niveau: Maternelle</p>
+        </div>
+        <div>
+            <h3>Français</h3>
+            <p>Niveau: Avancé</p>
+        </div>
+        <div>
+            <h3>Anglais</h3>
+            <p>Niveau: Intermédiaire</p>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <h2>Contactez-moi</h2>
+        <form action="" method="POST">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Aya Borken. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
